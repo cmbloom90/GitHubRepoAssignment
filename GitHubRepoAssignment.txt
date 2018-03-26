@@ -1,0 +1,12 @@
+md GitHubRepoAssignment
+cd GitHubRepoAssignment
+copy nul README.md
+git init
+git add README.md
+git commit -m "first commit"
+copy nul GitHubRepoAssignment.txt
+git add GitHubRepoAssignment
+git commit -m "added Git Hub text file"
+git log
+git remote add origin https://github.com/cmbloom90/GitHubRepoAssignment.git
+git push -u origin master
